@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Main">
+        <div id="task">
+            <div class="wrapper">
+                <input id="task=input" type="text" placeholder="Enter Tasks Here...">
+                <button id="add-Btn">Add</button>
+            </div>
+            <div id="tasks">
+                <p id="pending-tasks">You have <span id="count-value">0</span> tasks to complete</p>
+
+            </div>
+        </div>
+        <p id="error">input cannot be empty!</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
